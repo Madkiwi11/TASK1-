@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+padding-top: 10px;
+}
+
+.head-container {
+    padding-left: 1150px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+a {
+    color: #272727;
+    background-color: transparent;
+    text-decoration: none;
+    padding-right: 10px;
+    align-items:center;
+    font-size: 14px;
+}
+
+a:hover {
+    color:#272727;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+.profile-pic {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 80px auto 20px auto; 
+    padding: 20px;
+    margin-top: 30px;
+}
+
+
+
+.material-icons {
+    font-size: 24px;
+    color: #5f6368;
+}
+
+.logo img{
+max-width: 400px;
+}
+
+.search-input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border: 1px solid #dcdcdc;
+    border-radius: 24px;
+    padding: 5px;
+    background-color: #ffffff;
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+.search-box {
+    width: 100%;
+    padding: 4px 10px 4px 40px; 
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.search-icon, .voice-search-icon, .image-search-icon {
+    position: absolute;
+    font-size: 24px;
+}
+
+.search-icon {
+    left: 15px;
+    color: grey;
+}
+
+.voice-search-icon {
+    right: 60px; 
+    color:#4285f4;
+}
+
+.image-search-icon {
+    right: 15px;
+    color: #4285f4;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.search, .lucky {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    cursor: pointer;
+    font-size: 14px;
+    color: black;
+}
+
+.search:hover, .lucky:hover {
+    background-color: #e8e8e8;
+}
+
+.footer {
+    background-color: #dcdcdc45;
+    border-top: 1px solid #dcdcdc;
+    padding: 10px 20px;
+    text-align: center;
+    
+}
+
+.top {
+    display: flex;
+    font-size: 12px;
+    
+}
+
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.footer-left, .footer-right {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-left a, .footer-right a {
+    color:black;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.size{
+    margin-top: 80px;
+}
+
+.search-container p{
+    font-size: 11px;
+}
+.search-container a{
+    font-size: 11px;
+    color: #063786;
+}
